@@ -39,15 +39,16 @@ html body {
   margin-right: 20px;
   margin-bottom: 10px;
   left: 35%;
+
   /* margin-top: 50px; */
   padding-top: 1%;
   padding-bottom: -5%;
+
   /* Remove duplicate margin declaration */
   background-repeat: no-repeat;
   flex: 1;
   page-break-after: always;
 }
-
 
 .mylogo {
   top: 2.5%;
@@ -170,7 +171,8 @@ html body {
   margin-left: 45%;
   border: 1px solid #6070ff;
   border-radius: 4px;
-  /* padding: 6px;*/
+
+  /* padding: 6px; */
   width: 116px;
   height: 38px;
 }
@@ -386,7 +388,8 @@ html body {
 }
 
 /* Correcting duplicate selector */
-/*.multilast {
+
+/* .multilast {
   margin-left: 25%;
   margin-top: 100px;
-}
+} */
