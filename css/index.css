@@ -212,11 +212,10 @@ html body {
 
 .listdot {
   display: flex;
-  columns: ;
+  columns: 10px;
   margin-top: 70px;
   margin-left: 120px;
   list-style-type: circle;
-  line-gap-override: ;
 }
 
 .sentence2 {
@@ -262,7 +261,7 @@ html body {
 
 .three {
   display: flex;
-  columns: ;
+  columns: 10px;
   margin-left: 20px;
 }
 
@@ -299,7 +298,7 @@ html body {
 
 .listdotlast {
   display: flex;
-  columns: ;
+  columns: 10px;
   margin-top: 30px;
   margin-left: 120px;
   list-style-type: circle;
@@ -338,10 +337,6 @@ html body {
   color: blue;
 }
 
-.multilast {
-  margin-left: 25%;
-  margin-top: 100px;
-}
 
 .about {
   margin-left: 25%;
@@ -386,10 +381,3 @@ html body {
   margin-left: 45%;
   margin-bottom: 5px;
 }
-
-/* Correcting duplicate selector */
-
-/* .multilast {
-  margin-left: 25%;
-  margin-top: 100px;
-} */
