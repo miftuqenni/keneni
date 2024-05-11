@@ -46,14 +46,10 @@ html body {
   background-repeat: no-repeat;
   flex: 1;
   page-break-after: always;
-
 }
 
 .mylogo {
   top: 2.5%;
-
-  /* Adjust as needed */
-
   color: blue;
   left: 10%;
   padding-right: 10%;
@@ -84,7 +80,8 @@ html body {
 
   body {
     background-image: url(./image/mobi.png);
-    min-height: 100% background-size: contain;
+    min-height: 100%;
+    background-size: contain;
     background-position: left right;
     background-repeat: no-repeat;
   }
@@ -125,7 +122,6 @@ html body {
   position: relative;
   margin-left: 20%;
   top: 500px;
-
 }
 
 .tonic {
@@ -150,7 +146,6 @@ html body {
   position: relative;
   margin-left: 45%;
   margin-top: 20px;
-
 }
 
 .list2 {
@@ -177,7 +172,7 @@ html body {
   border-radius: 4px;
   padding: 6px;
   width: 116px;
-  height: 38px
+  height: 38px;
 }
 
 .s4 {
@@ -193,8 +188,6 @@ html body {
   top: 50px;
 }
 
-
-
 .thirdpage {
   margin-top: 40px;
 }
@@ -208,14 +201,11 @@ html body {
   margin-left: 25%;
   margin-bottom: 30px;
   top: 40px;
-
-
 }
 
 .all {
   page-break-after: always;
   border-inline: 100px;
-
 }
 
 .listdot {
@@ -230,15 +220,12 @@ html body {
 .sentence2 {
   position: relative;
   margin-left: 25%;
-
 }
 
 .list3 {
   margin-left: 25%;
   margin-top: 10px;
   list-style-type: none;
-
-
 }
 
 .see2 {
@@ -249,13 +236,11 @@ html body {
   padding: 12px;
   width: 126px;
   height: 48px;
-
 }
 
 .image3 {
   margin-top: 150px;
   margin-left: 25%;
-
 }
 
 .li2four {
@@ -269,14 +254,10 @@ html body {
   list-style-type: circle;
 }
 
-
-
 .list4 {
   margin-left: 25%;
   margin-top: 10px;
   list-style-type: none;
-
-
 }
 
 .three {
@@ -288,7 +269,6 @@ html body {
 .sentence3 {
   position: relative;
   margin-left: 25%;
-
 }
 
 .see3 {
@@ -310,13 +290,11 @@ html body {
   top: 50px;
 }
 
-multilast {
+.multilast {
   position: relative;
   margin-left: 25%;
   margin-bottom: 30px;
   top: 40px;
-
-
 }
 
 .listdotlast {
@@ -330,15 +308,12 @@ multilast {
 .sentencelast {
   position: relative;
   margin-left: 25%;
-
 }
 
 .listlast {
   margin-left: 25%;
   margin-top: 10px;
   list-style-type: none;
-
-
 }
 
 .seelast {
@@ -352,11 +327,11 @@ multilast {
 }
 
 .s3 {
-  color: blue
+  color: blue;
 }
 
 .s2 {
-  color: blue
+  color: blue;
 }
 
 .s1 {
@@ -390,9 +365,6 @@ multilast {
 .FrameWork {
   font-size: larger;
 }
-
-
-
 
 .secondpage {
   margin-top: 5px;
