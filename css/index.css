@@ -43,7 +43,6 @@ html body {
   padding-bottom: -5%;
   background-repeat: no-repeat;
   flex: 1;
-  /* padding: 16px;*/
 }
 
 .mylogo {
@@ -205,8 +204,7 @@ html body {
 .fourth {
   margin-top: 400px;
   padding: 16px;
-  width: 375px;
-  height: 730px;
+
   margin-left: -10px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
