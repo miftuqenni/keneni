@@ -204,7 +204,6 @@ html body {
 .fourth {
   margin-top: 400px;
   padding: 16px;
-
   margin-left: -10px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -370,11 +369,6 @@ html body {
   color: blue;
 }
 
-.about {
-  margin-left: 25%;
-  margin-top: 100px;
-}
-
 .Mi {
   color: blue;
 }
@@ -401,10 +395,11 @@ html body {
   border: 1px solid #dfe1e6;
   border-radius: 16px;
   padding: -700px;
-  margin-left: -1px;
   width: 375px;
   height: 850px;
   background-color: white;
+  margin-left: -1%;
+  margin-top: 100px;
 }
 
 .thelast {
