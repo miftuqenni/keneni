@@ -39,15 +39,10 @@ html body {
   margin-right: 20px;
   margin-bottom: 10px;
   left: 35%;
-
-  /* margin-top: 50px; */
   padding-top: 1%;
   padding-bottom: -5%;
-
-  /* Remove duplicate margin declaration */
   background-repeat: no-repeat;
   flex: 1;
-  page-break-after: always;
 }
 
 .mylogo {
@@ -78,6 +73,7 @@ html body {
 
   .header {
     display: inline-block;
+    flex-direction: column-reverse;
   }
 
   body {
@@ -91,7 +87,7 @@ html body {
 
 @media (min-width: 768px) {
   .header {
-    display: none;
+    display: inline-block;
   }
 
   .menulist {
@@ -101,7 +97,7 @@ html body {
   }
 
   body {
-    background-image: url(./image/desk.png);
+    background-image: url(/image/header-shapes mobile.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,23 +116,22 @@ html body {
 .image {
   text-align: center;
   margin: 20px;
-  bottom: 0%;
   position: relative;
-  margin-left: 20%;
-  top: 500px;
+  margin-left: 5%;
+  margin-bottom: -100px;
 }
 
 .tonic {
   position: relative;
-  margin-left: 45%;
-  margin-top: 500px;
+  margin-left: 25%;
+  margin-top: 100px;
 }
 
 .li {
   display: flex;
   columns: 30px;
   top: 500px;
-  margin-left: 45%;
+  margin-left: 25%;
   list-style-type: circle;
 }
 
@@ -146,18 +141,18 @@ html body {
 
 .sentence {
   position: relative;
-  margin-left: 45%;
+  margin-left: 25%;
   margin-top: 20px;
 }
 
 .list2 {
   display: flex;
   columns: 10px;
-  margin-left: 15%;
+  margin-left: -1%;
   list-style-type: none;
   justify-content: space-evenly;
   padding: 30%;
-  margin-top: -40px;
+  margin-top: -10px;
   color: rgb(20, 20, 36);
   padding-top: 5%;
 }
@@ -167,14 +162,18 @@ html body {
   position: relative;
   top: -180px;
   color: blue;
-  margin-top: -400px;
-  margin-left: 45%;
+  margin-top: 100px;
+  margin-left: 25%;
   border: 1px solid #6070ff;
   border-radius: 4px;
 
   /* padding: 6px; */
   width: 116px;
   height: 38px;
+}
+
+.space {
+  margin-left: auto;
 }
 
 .s4 {
@@ -186,52 +185,77 @@ html body {
   margin: 20px;
   bottom: 0%;
   position: relative;
-  margin-left: 5%;
-  top: 50px;
+  margin-left: -10px;
+  margin-top: 100px;
 }
 
 .thirdpage {
-  margin-top: 40px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  width: 375px;
+  height: 596px;
+  margin-top: -900px;
+  margin-left: -35px;
+  margin-right: -10px;
+  background-color: white;
 }
 
 .fourth {
-  margin-top: 200px;
+  margin-top: 400px;
+  padding: 16px;
+  margin-left: -10px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  width: 375px;
+  height: 676px;
+  background-color: white;
 }
 
 .multi {
   position: relative;
-  margin-left: 25%;
-  margin-bottom: 30px;
-  top: 40px;
+  margin-left: 10%;
+  margin-bottom: 100px;
+  top: 100px;
 }
 
 .all {
   page-break-after: always;
   border-inline: 100px;
+  width: 375px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  height: 700px;
 }
 
 .listdot {
   display: flex;
   columns: 10px;
-  margin-top: 70px;
-  margin-left: 120px;
+  margin-top: 20px;
+  margin-left: 60px;
   list-style-type: circle;
 }
 
 .sentence2 {
   position: relative;
-  margin-left: 25%;
+  margin-left: 10%;
+  margin-top: -10px;
 }
 
 .list3 {
-  margin-left: 25%;
-  margin-top: 10px;
+  margin-left: 10%;
+  margin-top: -10px;
   list-style-type: none;
+}
+
+.both3 {
+  margin-top: -100px;
+  margin-left: 10%;
 }
 
 .see2 {
   margin-top: 20px;
-  margin-left: 25%;
+  margin-left: 20%;
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
@@ -239,40 +263,48 @@ html body {
   height: 48px;
 }
 
+.tonics {
+  margin-left: 40%;
+}
+
 .image3 {
-  margin-top: 150px;
-  margin-left: 25%;
+  margin-top: 100px;
+  margin-left: 10%;
 }
 
 .li2four {
   display: flex;
   columns: 30px;
   top: 500px;
-  margin-left: -20px;
+  margin-left: 30px;
   margin-top: 30px;
   list-style-type: circle;
 }
 
 .list4 {
-  margin-left: 25%;
+  margin-left: 20%;
   margin-top: 10px;
   list-style-type: none;
+}
+
+.allof {
+  margin-top: 50px;
 }
 
 .three {
   display: flex;
   columns: 10px;
-  margin-left: 20px;
+  margin-left: -10px;
 }
 
 .sentence3 {
   position: relative;
-  margin-left: 25%;
+  margin-left: 20%;
 }
 
 .see3 {
   margin-top: 20px;
-  margin-left: 25%;
+  margin-left: 20%;
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
@@ -337,11 +369,6 @@ html body {
   color: blue;
 }
 
-.about {
-  margin-left: 25%;
-  margin-top: 100px;
-}
-
 .Mi {
   color: blue;
 }
@@ -356,13 +383,46 @@ html body {
   height: 48px;
 }
 
+.ab {
+  margin-left: 0%;
+}
+
 .FrameWork {
   font-size: larger;
 }
 
+.about {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: -700px;
+  width: 375px;
+  height: 850px;
+  background-color: white;
+  margin-left: -1%;
+  margin-top: 100px;
+}
+
+.thelast {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  width: 375px;
+  height: 700px;
+  margin-left: -40px;
+  margin-top: 80px;
+  background-color: white;
+}
+
 .secondpage {
-  margin-top: 5px;
-  margin-left: -200px;
+  margin-top: 250px;
+  margin-left: -20px;
+  border-inline: 100px;
+  width: 375px;
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  height: 700px;
+  margin-bottom: 1000px;
+  background-color: white;
 }
 
 .i {
@@ -379,4 +439,45 @@ html body {
   margin-top: -400px;
   margin-left: 45%;
   margin-bottom: 5px;
+}
+
+.c {
+  margin-left: 30%;
+  margin-top: 100px;
+  color: white;
+}
+
+.contact {
+  border: 1px solid #dfe1e6;
+  border-radius: 16px;
+  padding: 16px;
+  width: 375px;
+  height: 700px;
+  background-color: blue;
+  margin-top: 100px;
+}
+
+.note {
+  margin-left: 20%;
+}
+
+.firstname {
+  width: 327px;
+  height: 48px;
+}
+
+.emailladdress {
+  width: 327px;
+  height: 48px;
+}
+
+.summitmode {
+  border-width: thin;
+  font-weight: 500;
+  font-size: 17px;
+  margin-top: 3%;
+  margin-right: 50%;
+  padding: 4%;
+  color: #6070ff;
+  border-radius: 8px;
 }
