@@ -5,6 +5,40 @@ body {
   background-image: url('image/des.png/image.png');
   background-repeat: no-repeat;
   background-origin: border-box;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .mainbody {
@@ -13,20 +47,20 @@ body {
 
 .tonic {
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 'bold';
 }
 
 .toggle {
-  position: absolute;
+  position: 'absolute';
   display: flex;
-  justify-content: flex-end;
+  justify-content: 'flex-end';
   margin-top: 1px;
   margin-left: 500px;
   color: blue;
 }
 
 .logo {
-  margin-top 60px;
+  margin-top: 60px;
   margin-left: 30px;
   color: blue;
 }
@@ -76,7 +110,7 @@ body {
   color: blue;
   border: 1px solid #6070ff;
   border-radius: 4px;
-  width 116px;
+  width: 116px;
   height: 38px;
   margin-top: 20px;
   margin-top: 40px;
@@ -109,7 +143,7 @@ body {
 .summitmode {
   margin-top: 100px;
   position: relative;
-  color: blue;
+  color: rgb(20, 28, 6);
   border: 1px solid #6070ff;
   border-radius: 4px;
   width: 116px;
@@ -166,7 +200,6 @@ a {
   -webkit-transition: all 0.3s, ease-in-out;
   transition: all 0.3s, ease-in-out;
   background-color: white;
-
 }
 
 */ .navbranding {
@@ -188,7 +221,6 @@ a {
 
 .humberger {
   display: block;
-
 }
 
 .humberger.active.bar:nth-child(2) {
@@ -226,7 +258,10 @@ navitem {
 @media screen and (min-width: 768px) {
   .humberger {
     display: block;
+  }
 
+  .image {
+    opacity: 1;
   }
 
   .humberger.active.bar:nth-child(2) {
@@ -275,7 +310,6 @@ navitem {
   .half {
     display: flex;
     flex-direction: row;
-
   }
 
   .tonic {
@@ -287,7 +321,6 @@ navitem {
 
   .About {
     padding-left: 40%;
-
   }
 
   .contact {
@@ -300,7 +333,6 @@ navitem {
     margin-top: -200px;
     display: flex;
     flex-direction: row;
-
   }
 
   .sentence {
@@ -355,5 +387,10 @@ navitem {
 
   .ii {
     margin-top: -350px;
+  }
+
+  .error-message {
+    color: rgb(12, 231, 74);
+    margin-bottom: 10px;
   }
 }
