@@ -12,22 +12,32 @@
 
 <body>
     <section class="mainbody">
-        <div class="logo">My Logo</div>
-        <div class="all">
-            <header>
-                <div class="toggle">
-                    <button class="nav-toggle">☰</button>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="navbranding">X</a>
+                <ul class="navmenu">
+                    <li class="navitem">
+                        <a href="#Portfolio" class="navlink">Portfolio</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#about" class="navlink">About</a>
+                    </li>
+                    <li class="navitem">
+                        <a href="#contact" class="navlink">Contact</a>
+                    </li>
+                </ul>
+                <div class="humberger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
                 </div>
-                <nav>
-                    <div class="navigation-menu">
-                        <a href="#home">Portfolio</a>
-                        <a href="#about">About</a>
-                        <a href="#contact">Contact</a>
-                    </div>
-                </nav>
-            </header>
-
+            </nav>
+            <div class="logo">My Logo</div>
+            <div class="all">
+        </header>
+        <section id="Portfolio">
             <div class="therest">
+
                 <h1 class="myname"> I'm Miftu.<br> Glad to see you!</h1>
 
                 <p>
@@ -67,7 +77,8 @@
                     </li>
                 </div>
             </div>
-        </div>
+            </div>
+        </section>
     </section>
     <section class="secondpage">
         <div class="f">
@@ -218,7 +229,7 @@
         </div>
     </section>
     <section class="About">
-        <div class="2">
+        <section id="about">
             <h1 class="ab">About Myself</h1>
             <p class="myself"> I'm software developer i can<br>help you build aproject,feature or<br>website.Look
                 through
@@ -258,39 +269,43 @@
             <button class="get">
                 <b>Get My resume</b>
             </button>
-
-        </div>
-        <div>
-            <h3 class="lang">Language</h3>
-            <img src="wow/img.jpg" class="imagew">
-        </div>
-        <img src="im1/imgs.jpg " alt="snapshot" class="image1">
-        <ul class="FrameWork">FrameWork</ul>
-        <ul class="i">></ul>
-        <ul class="skil">Skill</ul>
-        <ul class="j">></ul>
+            <div>
+                <h3 class="lang">Language</h3>
+                <img src="wow/img.jpg" class="imagew">
+            </div>
+            <img src="im1/imgs.jpg " alt="snapshot" class="image1">
+            <ul class="FrameWork">FrameWork</ul>
+            <ul class="i">></ul>
+            <ul class="skil">Skill</ul>
+            <ul class="j">></ul>
+        </section>
     </section>
+
     <section class="contact">
-        <h1 class="c">Contact Me</h1>
-        <p class="note">If you have an application you are interested in<br>developing afeature that you need built or o
-            project<br>that needs coding.i'd love to help with it</p>
-        <div class="boxflx">
-            <form action="https://formspree.io/f/xvoeykdl" method="post"> 
-                <input type="text" name="fullName" class="firstname" placeholder="Enter your name (up to 20 characters)"
-                    maxlength="25" required><br> <br>
-                <input type="email" name="email" class="email1address" placeholder="Enter your email"
-                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"     required
-                    title="Please enter a valid email address">
-                <br> <br>
-                    <textarea class="area" name="messagesentence" placeholder="Write your message here" maxlength="600"
-                    required></textarea>
-                <input type="submit" class="summitmode"   value="Get in touch">
-            </form>
-        </div>
+        <section id="contact">
+            <h1 class="c">Contact Me</h1>
+            <p class="note">If you have an application you are interested in<br>developing afeature that you need built
+                or o
+                project<br>that needs coding.i'd love to help with it</p>
+            <div class="boxflx">
+                <form action="https://formspree.io/f/xvoeykdl" method="post"> 
+                    <input type="text" name="fullName" class="firstname"
+                        placeholder="Enter your name (up to 20 characters)" maxlength="25" required><br> <br>
+                    <input type="email" name="email" class="email1address" placeholder="Enter your email"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"     required
+                        title="Please enter a valid email address">
+                    <br> <br>
+                        <textarea class="area" name="messagesentence" placeholder="Write your message here"
+                        maxlength="600" required></textarea>
+                    <input type="submit" class="summitmode"   value="Get in touch">
+                </form>
+            </div>
 
-        </div>
-        </div>
+            </div>
+            </div>
+        </section>
     </section>
+    <script src="index.js"></script>
 </body>
 
 </html>
